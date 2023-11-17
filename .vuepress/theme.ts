@@ -3,18 +3,17 @@ import navbar from "./navbar.js";
 // import sidebar from "./sidebar.js";
 
 export default hopeTheme({
-  hostname: "https://lileicc.github.io",
+  hostname: "https://anirudh-kannan.github.io",
 
   author: {
-    name: "Lei Li",
-    url: "https://www.cs.ucsb.edu/~leili",
+    name: "Anirudh Kannan & Greeshma Karanth",
   },
 
   iconAssets: "iconfont",
 
   logo: "/logo.svg",
 
-  repo: "lileicc/blog",
+  repo: "anirudh-kannan/blog",
 
   // docsDir: "demo/src",
 
@@ -31,7 +30,7 @@ export default hopeTheme({
   pageInfo: ["Author", "Original", "Date", "Category", "Tag", "ReadingTime"],
 
   blog: {
-    description: "AI Researcher",
+    description: "Students @ MNLP",
     intro: "/",
     medias: {
       GitHub: "https://www.github.com/lileicc",
