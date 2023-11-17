@@ -42,6 +42,9 @@ The conventional effective method involves training a model on various monolingu
 
 To address these challenges, ERNIE-M introduces innovative approaches inspired by back translation and non-autoregressive neural machine translation. Back translation, known for improving translation performance using parallel data, serves as inspiration for ERNIE-M to enhance its comprehension of different languages. The goal is to overcome previous model limitations and enhance performance in handling diverse languages.
 
+<p align="center"><img src="./colorcolor.png" height="400"></p>
+
+
 ## ERNIE-M Methodology
 
 Recent research findings highlight the remarkable success of pre-trained cross-lingual models in excelling at downstream cross-lingual tasks. This achievement stems from the extensive learning acquired from both monolingual and parallel corpora.
@@ -116,8 +119,6 @@ Lastly, in the retrieval task using the Tatoeba dataset, ERNIE-M exhibited subst
 
 <p align="center"><img src="./ernie-tatoeba.png" height = "200"></p>
 
-<p align="center"><img src="./colorcolor.png"></p>
-
 
 In essence, ERNIE-M emerged as a consistently superior model, surpassing baseline models across a spectrum of cross-lingual tasks. Its effectiveness and robust performance underscore its utility in natural language understanding across diverse linguistic contexts.
 
@@ -155,7 +156,7 @@ We re-implemented both ERNIE and ERNIE-LARGE using Hugging Face and obtained the
 
 The obtained results align with the anticipated outcomes as documented in the Hugging Face repository, available [here](https://huggingface.co/MoritzLaurer/ernie-m-large-mnli-xnli).
 
-For the implementation details, you can refer to the corresponding Colab notebook, accessible [here](https://colab.research.google.com/drive/1Mqwyogeq7CupZyILh7a7sFv3Zx2nwngc?usp=sharing).
+For the implementation details, you can refer to our corresponding Colab notebook, accessible [here](https://colab.research.google.com/drive/1Mqwyogeq7CupZyILh7a7sFv3Zx2nwngc?usp=sharing).
 
 
 
