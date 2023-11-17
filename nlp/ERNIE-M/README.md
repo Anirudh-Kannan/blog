@@ -144,7 +144,7 @@ In the ablation study, a series of experiments (exp0 to exp5) were conducted to 
 
 Comparisons between these experiments helped discern the impact of different training objectives on cross-lingual semantic alignment and downstream task performance. Notably, the study revealed that certain combinations, such as BTMLM and CAMLM, proved more effective in capturing cross-lingual semantics, leading to improved performance on tasks like XNLI and CoNLL. The experiments highlighted the importance of selecting appropriate training objectives for achieving superior cross-lingual representation alignment and task-specific outcomes.
 
-### ERNIE-M Re-implmentation
+### ERNIE-M Re-implementation
 We re-implemented both ERNIE and ERNIE-LARGE using Hugging Face and obtained the following results. The evaluations were conducted for the XNLI task across 15 languages.
 
 
