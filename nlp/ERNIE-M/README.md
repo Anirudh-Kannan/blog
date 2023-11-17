@@ -112,9 +112,11 @@ The cross-lingual Paraphrase Identification task, evaluated on the PAWS-X datase
 <p align="center"><img src="./ernie-paws.png"></p>
 
 
-Lastly, in the retrieval task using the Tatoeba dataset, ERNIE-M exhibited substantial improvement in accuracy across all languages following fine-tuning with the hardest negative binary cross-entropy loss.
+Lastly, in the retrieval task using the Tatoeba dataset, ERNIE-M exhibited substantial improvement in accuracy across all languages following fine-tuning with the hardest negative binary cross-entropy loss. ERNIE-M achieved an accuracy rate of 87.9% when tested on a subset of the Tatoeba dataset that contains 36 languages.
 
 <p align="center"><img src="./ernie-tatoeba.png" height = "200"></p>
+
+<p align="center"><img src="./colorcolor.png"></p>
 
 
 In essence, ERNIE-M emerged as a consistently superior model, surpassing baseline models across a spectrum of cross-lingual tasks. Its effectiveness and robust performance underscore its utility in natural language understanding across diverse linguistic contexts.
